@@ -1,0 +1,14 @@
+{
+  "processing_date": "2025-10-02T18:42:35.063416",
+  "datasets_processed": [
+    "primary",
+    "secondary",
+    "combined_original"
+  ],
+  "total_original_records": 61768,
+  "final_clean_records": 30032,
+  "time_series_days": 2137,
+  "train_days": 1495,
+  "val_days": 321,
+  "test_days": 321
+}
