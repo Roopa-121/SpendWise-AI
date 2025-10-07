@@ -1,0 +1,2 @@
+,val_mae,val_rmse,val_mape,val_r2,val_directional_accuracy,epochs_trained,convergence
+NBEATS,5835.47412109375,8327.155096429993,14.877772,-2.1896644,50.3448275862069,18,Good

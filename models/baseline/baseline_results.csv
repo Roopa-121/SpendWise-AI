@@ -1,0 +1,28 @@
+model_name,train_mae,train_rmse,train_mape,train_r2,train_directional_accuracy,val_mae,val_rmse,val_mape,val_r2,val_directional_accuracy,feature_importance,model_summary
+Linear Regression,8102.023093589958,12470.492576367493,135.04556335397325,0.41418889874182585,44.712182061579654,1693.8689321000438,4204.449212861338,5.61183268785072,0.1317270674055948,27.187499999999996,"{'year': np.float64(65.26563491944758), 'month': np.float64(2471.5918197369824), 'day': np.float64(79.09741811273386), 'weekday': np.float64(255.35393044788887), 'is_weekend': np.float64(-1871.269528104213), 'quarter': np.float64(-194.60429420502783), 'day_of_year': np.float64(-79.7364387215582), 'expense_lag_1': np.float64(-0.14500902193640286), 'expense_lag_7': np.float64(-0.01567580756091047), 'expense_rolling_7': np.float64(1.118358361473156), 'expense_rolling_30': np.float64(0.02463875450598607)}",
+Prophet,10315.892491805418,13970.40185133551,165.76320911671203,0.2647954634755657,55.82329317269076,2807.317549558411,5473.307060080615,8.422721752859621,-0.4714234314562642,54.37499999999999,,
+ARIMA,9555.810232750226,13945.175406256752,157.54170453843415,0.2650349168176863,7.300736771600803,2299.389869598173,4587.201713186234,7.150241998869678,-0.033555295644997374,95.3125,,"                                SARIMAX Results                                
+===============================================================================
+Dep. Variable:     total_daily_expense   No. Observations:                 1495
+Model:                  ARIMA(1, 1, 1)   Log Likelihood              -16374.206
+Date:                 Thu, 02 Oct 2025   AIC                          32754.412
+Time:                         18:11:48   BIC                          32770.339
+Sample:                              0   HQIC                         32760.347
+                                - 1495                                         
+Covariance Type:                   opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+ar.L1          0.0382      0.021      1.847      0.065      -0.002       0.079
+ma.L1         -0.9693      0.007   -138.645      0.000      -0.983      -0.956
+sigma2      1.935e+08   2.93e-12    6.6e+19      0.000    1.93e+08    1.93e+08
+===================================================================================
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):                93.48
+Prob(Q):                              0.99   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.07   Skew:                            -0.60
+Prob(H) (two-sided):                  0.00   Kurtosis:                         3.24
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number    inf. Standard errors may be unstable."
