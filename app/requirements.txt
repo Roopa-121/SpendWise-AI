@@ -1,0 +1,33 @@
+# BudgetWise AI - Streamlit App Requirements
+# Core dependencies for the expense forecasting dashboard
+
+# Web Framework
+streamlit==1.50.0
+
+# Data Processing
+pandas>=1.4.0
+numpy>=1.23
+
+# Visualization
+plotly>=5.0.0
+seaborn>=0.11.0
+matplotlib>=3.4.0
+altair>=5.0.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+xgboost>=1.6.0
+joblib>=1.2.0
+
+# Deep Learning (optional)
+tensorflow>=2.10.0
+torch>=1.12.0
+
+# Utilities
+pathlib2
+python-dateutil>=2.8.0
+pytz
+
+# Development
+pytest>=7.0.0
+black>=22.0.0
