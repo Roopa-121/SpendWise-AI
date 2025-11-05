@@ -121,7 +121,7 @@ BudgetWise-AI-Expense-Forecasting/
 │   └── Synthetic_Data_Generator.py      # Data generation utilities
 ├── 
 ├── 🌐 app/                              # Production Streamlit application
-│   ├── budgetwise_app.py                # Main dashboard application (590+ lines)
+│   ├── Spendwise_app.py                # Main dashboard application (590+ lines)
 │   ├── requirements.txt                 # App-specific dependencies
 │   ├── .streamlit/                      # Streamlit configuration
 │   │   └── config.toml                  # Theme and server settings
