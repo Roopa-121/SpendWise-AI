@@ -76,14 +76,14 @@ An advanced AI-powered personal expense forecasting system that leverages cuttin
 **Method 1: Direct Streamlit Launch**
 ```bash
 cd app
-streamlit run budgetwise_app.py --server.port 8502
+streamlit run Spendwise_app.py --server.port 8502
 ```
 
 **Method 2: With Virtual Environment**
 ```bash
 myvenv\Scripts\activate  # Windows
 cd app
-streamlit run budgetwise_app.py
+streamlit run Spendwise_app.py
 ```
 
 ### Data Requirements
